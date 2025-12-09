@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-12-09 18:10:59",
+  "overall_classification": "ABNORMAL",
+  "risk_level": "HIGH",
+  "confidence_score": 0.5311353117227554,
+  "total_changes_detected": 6,
+  "semantic_changes": [
+    {
+      "change_type": "OBJECT_APPEARED",
+      "description": "New car detected",
+      "confidence": 0.7639463543891907,
+      "severity": "high",
+      "location": [
+        356,
+        175
+      ],
+      "affected_area_percentage": 0.9026141819048915
+    },
+    {
+      "change_type": "OBJECT_APPEARED",
+      "description": "New person detected",
+      "confidence": 0.30088165402412415,
+      "severity": "high",
+      "location": [
+        716,
+        112
+      ],
+      "affected_area_percentage": 0.09862637549943898
+    },
+    {
+      "change_type": "OBJECT_APPEARED",
+      "description": "New truck detected",
+      "confidence": 0.26632988452911377,
+      "severity": "high",
+      "location": [
+        506,
+        62
+      ],
+      "affected_area_percentage": 0.2681039847445422
+    },
+    {
+      "change_type": "OBJECT_MOVEMENT",
+      "description": "car moved 113 pixels",
+      "confidence": 0.255653977394104,
+      "severity": "medium",
+      "location": [
+        356,
+        175
+      ],
+      "affected_area_percentage": 0.0
+    }
+  ],
+  "structural_changes": [
+    {
+      "change_type": "MOTION_DETECTED",
+      "description": "Motion detected in 7 regions (20.4% of frame)",
+      "confidence": 0.8,
+      "severity": "medium",
+      "location": null,
+      "affected_area_percentage": 20.40965556938811
+    }
+  ],
+  "visual_changes": [
+    {
+      "change_type": "QUALITY_CHANGE",
+      "description": "Image 2 is sharper (blur score: 521.6)",
+      "confidence": 0.8,
+      "severity": "low",
+      "location": null,
+      "affected_area_percentage": 100.0
+    }
+  ],
+  "quality_assessment": {
+    "image1": {
+      "corrupted": false,
+      "width": 888,
+      "height": 673,
+      "aspect_ratio": 1.3194650817236255,
+      "blur_score": 452.2878866979907,
+      "mean_brightness": 70.64621400746958,
+      "is_blurry": false,
+      "is_too_dark": false,
+      "is_too_bright": false
+    },
+    "image2": {
+      "corrupted": false,
+      "width": 858,
+      "height": 668,
+      "aspect_ratio": 1.284431137724551,
+      "blur_score": 521.3383652275868,
+      "mean_brightness": 81.33277500942171,
+      "is_blurry": false,
+      "is_too_dark": false,
+      "is_too_bright": false
+    },
+    "comparable": true,
+    "warnings": []
+  },
+  "warnings": [],
+  "reasoning": "Classification: ABNORMAL\nReasoning:\n  \u2022 4 semantic changes detected (objects appeared/disappeared/moved)\n  \u2022 1 structural changes detected (scene geometry altered)\n  \u2022 1 visual changes detected (lighting, color, quality)\n  \u2022 3 high-severity changes require attention"
+}
