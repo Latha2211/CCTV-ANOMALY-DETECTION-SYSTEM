@@ -1,9 +1,6 @@
 🎥 Advanced CCTV Change Analysis System
 An intelligent AI-powered system for automatic anomaly detection in CCTV footage using multi-layer computer vision analysis.
-Show Image
-Show Image
-Show Image
-Show Image
+
 🌟 Features
 
 Multi-Layer Detection: Combines semantic, structural, and visual analysis
